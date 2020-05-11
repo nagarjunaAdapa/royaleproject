@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie fps="60"/>
+    <movie height="600"/>
+    <movie disabled="False"/>
+    <movie background="#FFFFFF"/>
+    <movie path="bin-debug/Royale_Grid_Project.swf"/>
+    <movie width="800"/>
+    <movie platform="Flash Player"/>
+    <movie version="11"/>
+    <movie input=""/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path="C:\Users\Walkingtree\Documents\Royale_Grid_Project"/>
+  </jsOutput>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option showActionScriptWarnings="True"/>
+    <option compilerConstants=""/>
+    <option showBindingWarnings="True"/>
+    <option locale=""/>
+    <option showDeprecationWarnings="True"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option strict="True"/>
+    <option accessible="False"/>
+    <option useNetwork="True"/>
+    <option allowSourcePathOverlap="False"/>
+    <option useResourceBundleMetadata="True"/>
+    <option additional="+configname=flex"/>
+    <option benchmark="False"/>
+    <option warnings="True"/>
+    <option antBuildPath="build/build.xml"/>
+    <option verboseStackTraces="False"/>
+    <option customSDK="C:\MoonshineSDKs\Royale_SDK\apache-royale-0.9.6-bin-js\royale-asjs"/>
+    <option loadConfig=""/>
+    <option linkReport=""/>
+    <option optimize="False"/>
+    <option staticLinkRSL="False"/>
+    <option es="False"/>
+  </build>
+  <mavenBuild>
+    <option settingsFilePath=""/>
+    <option mavenBuildPath="C:\Users\Walkingtree\Documents\Royale_Grid_Project"/>
+    <option commandLine=""/>
+    <actions>
+      <action actionName="Build" action="install"/>
+      <action actionName="Clean and package" action="clean package"/>
+      <action actionName="Clean" action="clean"/>
+      <action actionName="Clean and Build" action="clean install"/>
+      <action actionName="Exploded" action="war:exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics>
+    <element path="Library/AS3/frameworks/Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+  </intrinsics>
+  <library></library>
+  <compileTargets>
+    <compile path="src/Royale_Grid_Project.mxml"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option visualEditorExportPath=""/>
+    <option testMovie=""/>
+    <option isRoyale="True"/>
+    <option showHiddenPaths="False"/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option testMovieCommand=""/>
+    <option isExportedToExistingSource="False"/>
+    <option defaultBuildTargets=""/>
+  </options>
+  <moonshineRunCustomization>
+    <option customUrlToLaunch=""/>
+    <option deviceSimulator="null"/>
+    <option projectType="2"/>
+    <option launchMethod="Simulator"/>
+    <option targetPlatform="2"/>
+    <option urlToLaunch="C:\Users\Walkingtree\Documents\Royale_Grid_Project\bin\js-debug\index.html"/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
